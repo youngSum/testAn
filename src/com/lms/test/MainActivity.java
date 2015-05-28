@@ -24,12 +24,12 @@ public class MainActivity extends Activity {
 		bt.setOnClickListener(new View.OnClickListener() {  
             @Override  
             public void onClick(View v) {  
-            	query();  
+            	quer();  
             }  
         });
 	}
 	
-	public void query()
+	public void quer()
     {
         Uri uri=Student.CONTENT_URI;
         String[] PROJECTION=new String[]{
